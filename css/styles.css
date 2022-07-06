@@ -1,0 +1,155 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navbar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* #navbarSupportedContent{
+  position: relative;
+  left: auto;
+} */
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* download button */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* titleimage */
+
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+h3{
+  font-family: "Montserrat-bold"
+}
+p{
+  color: grey;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.logo{
+  width: 22%;
+  padding: 3% 4%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 30%;
+  }
+
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  font-weight: "Montserrat-bold";
+  /* font-size: 3rem; */
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align:center;
+}
+.social-icon{
+  padding: 20px 10px;
+}
